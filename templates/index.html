@@ -1,39 +1,37 @@
 <html>
     <head>
-        <title>
+         <title>
             Opal Kale | Home
         </title>
         <meta content="Opal Kale's personal page" name='description' />
-        <link href='stylesheets/application.css' rel='stylesheet' type='text/css' />
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js' type='text/javascript'></script>
-        <script src='/application.js' type='text/javascript'></script>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-34881072-1']);
-            _gaq.push(['_trackPageview']);
-        
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-
-        </script>
-    
+        <link href='{{url_for('static', filename='style.css')}}' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Codystar:300,400' rel='stylesheet' type='text/css'>
     </head>
     <body id='home'>
 
         <div id='all_content'>
             <div id='container'>
-            <h1 style = "font-family:arial;text-align:center"> 
-                Hey, my name is Opal.
-            </h1>
-            <p>
-                I'm a New Jersey native, currently  studying Computer Science at 
-                <a href='http://www.cs.berkeley.edu/' target='_'>Berkeley</a>.
-                In my free time, I enjoy traveling, watching movies, and hanging at 
-                <a href='http://en.wikipedia.org/wiki/Casa_Zimbabwe' target='_'>CZ</a>. I also dabble in aerial acrobatics.
-            </p>
+                <div class="circular-image"></div>
+                <h1> 
+                    Hey, my name is Opal
+                </h1>
+                <p>
+                    I am a junior at <a href='http://www.cs.berkeley.edu/' target='_'>Berkeley</a>, where I study Computer Science. 
+                    I'm particularly interested in artificial intelligence and algorithms. 
+                </p>
+                <p>
+                    I grew up in New Jersey and in my free time I enjoy traveling, watching movies, and aerial acrobatics. 
+                    I hang out at <a href="http://en.wikipedia.org/wiki/Casa_Zimbabwe">Casa Zimbabwe</a>.
+                    To contact me, email me at <a href="mailto:opal.kale@gmail.com">opal.kale@gmail.com</a>. 
+                    Here's my <a href="http://github.com/opalkale">Github</a> and
+                    <a href="http://www.linkedin.com/pub/opal-kale/54/47b/107">LinkedIn</a>.
+                </p>
+                <p>
+                    This site is written in Python / Flask and hosted on Heroku. 
+                    The full source is hosted <a href="https://github.com/opalkale/personalsite">here</a>.
+                </p>
+            </div>
+        </div>
     </body>
 </html> 
 
