@@ -7,7 +7,7 @@
 }
 
 html {
-    background-color: #fafafa ;
+    background-color: #fafafa;
 }
 
 body {
@@ -45,13 +45,14 @@ a:visited {
 }
 
 .circular-image {
-    margin: 50px auto 0 auto;
-    width: 100px;
-    height: 100px;
+    margin: 40px auto -10px auto;
+    width: 135px;
+    height: 135px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
+    padding-bottom: 0;
+    -webkit-border-radius: 100px;
     -moz-border-radius: 50px;
-    background: url("/static/me1.jpg") no-repeat;
+    background: url("/static/me.gif") no-repeat;
     background-position: center;
 }
 
