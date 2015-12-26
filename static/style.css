@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Codystar:300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #fafafa;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 400;
+    margin-top: 60px;
+    font-family: 'Codystar', cursive;
+    color: #555;
+}
+
+p {
+    font-size: 15px;
+    color: #333;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c9ab7;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #2c9ab7;
+}
+
+.circular-image {
+    margin: 40px auto 0 auto;
+    width: 170px;
+    height: 170px;
+    background: url("/static/opalkale.png") no-repeat;
+    background-position: center;
+}
+
