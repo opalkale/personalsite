@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
 #container {
-    width: 400px;
+    width: 430px;
     margin: 0 auto;
 }
 
@@ -21,7 +21,16 @@ h1 {
     margin-top: 60px;
     font-family: 'Codystar', cursive;
     color: #555;
-}
+    text-align: center;
+    }
+
+h2 {
+    font-size: 33px;
+    font-weight: 400;
+    font-family: 'Codystar', cursive;
+    color: #555;
+    text-align: center;
+    }
 
 p {
     font-size: 15px;
